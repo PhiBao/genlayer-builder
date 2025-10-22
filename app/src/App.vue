@@ -1,7 +1,7 @@
 <template>
   <Suspense>
     <template #default>
-      <BetsScreen />
+      <PredictionMarkets />
     </template>
     <template #fallback>
       <div class="flex items-center justify-center h-screen">
@@ -12,5 +12,5 @@
 </template>
 
 <script setup>
-import BetsScreen from "./components/BetsScreen.vue";
+import PredictionMarkets from "./components/PredictionMarkets.vue";
 </script>

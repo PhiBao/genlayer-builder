@@ -1,3 +1,21 @@
+# Environment and configuration
+.env
+node_modules
+
+# Private keys and sensitive data
+keypair.json
+deployed_contract.json
+*.key
+*.pem
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -8,10 +26,3 @@
 *.njsproj
 *.sln
 *.sw?
-.env
-node_modules
-# Python bytecode
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
